@@ -1,0 +1,194 @@
+{
+  "id": "1e6d7692-1490-4d1e-bd64-2f668da58d5e",
+  "version": "2.0",
+  "name": "demoProject1",
+  "url": "https://experitest.com/",
+  "tests": [{
+    "id": "e8946f8e-5429-4d67-99f1-eedfa7c7a8f5",
+    "name": "test1",
+    "commands": [{
+      "id": "5cf59fc5-6b64-4c16-b274-db056f542871",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a4f6c62b-2a99-4530-b755-22ecd15ca200",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1056",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5274f256-5923-4971-8bbb-6b7086d1207d",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=LEARN MORE",
+      "targets": [
+        ["linkText=LEARN MORE", "linkText"],
+        ["css=.col-sm-9 > .custom-green-btn > a", "css:finder"],
+        ["xpath=//a[contains(text(),'LEARN MORE')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://experitest.com/mobile-testing/')]", "xpath:href"],
+        ["xpath=//div[2]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'LEARN MORE ')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a98bde2e-88dc-4763-ae5f-5f0cf5899310",
+      "comment": "",
+      "command": "storeText",
+      "target": "css=h1",
+      "targets": [
+        ["css=h1", "css:finder"],
+        ["xpath=//div[@id='page_12956']/div[2]/div/div/h1", "xpath:idRelative"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Mobile Testing')]", "xpath:innerText"]
+      ],
+      "value": "myVar"
+    }, {
+      "id": "a6721a8e-2728-4141-8339-7ac75c2e4d78",
+      "comment": "",
+      "command": "if",
+      "target": "${myVar} === \"Cross Browser Testing\"",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "84695a51-3809-40f6-82ef-9dd26ab5a18b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.page-btn > a",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bce41aa5-9b9e-4b54-8365-cd10b183abb2",
+      "comment": "",
+      "command": "else",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "18767e60-3b5e-4e6b-82b5-bbe53a8c98be",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=LEARN MORE",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "821ba76a-d3af-424f-ab2d-e36cfcdad69e",
+      "comment": "",
+      "command": "end",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "d69303a6-1766-4423-a8ba-73009dcfae82",
+    "name": "test2",
+    "commands": [{
+      "id": "40b6d10f-4edd-4a4a-8ea8-7ce702bdaa63",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f2a74d5d-9c6c-4a07-8e2b-4e1811430140",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1056",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "71bb81c7-fea0-4e03-88b9-d537b84f676c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col-sm-8 a",
+      "targets": [
+        ["css=.col-sm-8 a", "css:finder"],
+        ["xpath=(//a[contains(text(),'LEARN MORE')])[2]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://experitest.com/cross-browser-testing')]", "xpath:href"],
+        ["xpath=//div[4]/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "015d3b12-5964-46a8-b8b6-450bb65eb3de",
+      "comment": "",
+      "command": "storeText",
+      "target": "css=h1",
+      "targets": [
+        ["css=h1", "css:finder"],
+        ["xpath=//div[@id='page_12956']/div[2]/div/div/h1", "xpath:idRelative"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Mobile Testing')]", "xpath:innerText"]
+      ],
+      "value": "myVar"
+    }, {
+      "id": "83198ae4-50cb-4abe-b1cc-369392e08637",
+      "comment": "",
+      "command": "if",
+      "target": "${myVar} === \"Cross Browser Testing\"",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ffb1019d-ef8d-4e2b-81de-45cd28f900d0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.page-btn > a",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fc16886b-2474-4363-a873-35b344f93d53",
+      "comment": "",
+      "command": "else",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7ffb2ddb-da83-4e2d-ac07-40e8650576b1",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=LEARN MORE",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "20321dab-8761-4220-854b-a0bf8b89f8ff",
+      "comment": "",
+      "command": "end",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "417effe8-c1a4-4895-944f-3ba8bb2a511a",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["e8946f8e-5429-4d67-99f1-eedfa7c7a8f5"]
+  }, {
+    "id": "ca2b17c0-306c-48f8-9127-3215757cdfa9",
+    "name": "testSuite1",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["e8946f8e-5429-4d67-99f1-eedfa7c7a8f5"]
+  }, {
+    "id": "28eca3e4-8744-4fff-86d4-c23ddb4a8829",
+    "name": "testSuite2",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["d69303a6-1766-4423-a8ba-73009dcfae82"]
+  }, {
+    "id": "68a3ba22-6537-4c98-b4cb-fb6ddec26a4a",
+    "name": "testSuite3",
+    "persistSession": false,
+    "parallel": true,
+    "timeout": 300,
+    "tests": ["e8946f8e-5429-4d67-99f1-eedfa7c7a8f5", "d69303a6-1766-4423-a8ba-73009dcfae82"]
+  }],
+  "urls": ["https://experitest.com/"],
+  "plugins": []
+}
